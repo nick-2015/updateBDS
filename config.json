@@ -1,0 +1,20 @@
+{
+    "server_dir": "/opt/bedrock-server",
+    "backup_dir": "/opt/bedrock-backups",
+    "screen_name": "bds",
+    "world_name": "Bedrock level",
+    "keep_backups": 5,
+    "server_executable": "bedrock_server",
+    "download_url_linux": "https://minecraft.azureedge.net/bin-linux/bedrock-server-{}.zip",
+    "preserved_files": [
+        "server.properties",
+        "permissions.json",
+        "whitelist.json",
+        "allowlist.json",
+        "textures",
+        "world_templates",
+        "behavior_packs",
+        "resource_packs",
+        "plugins"
+    ]
+}
